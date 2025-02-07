@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 import { FEATURES } from "@/constants";
+=======
+>>>>>>> 2f7075cf6711c74526c83eae287cb7c6635446ba
 import Image from "next/image";
 import React from "react";
 
 const Features = () => {
   return (
+<<<<<<< HEAD
     <section className=" flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
       <div className="max-container padding-container relative w-full flex justify-end">
+=======
+    <section className="border-2 border-red-500 flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+      <div className="max-container padding-container relative w-full justify-end">
+>>>>>>> 2f7075cf6711c74526c83eae287cb7c6635446ba
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
             src={"/phone.png"}
@@ -26,6 +34,7 @@ const Features = () => {
             />
             <h2 className="bold-40 lg:bold-64">Our Features</h2>
           </div>
+<<<<<<< HEAD
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:fap-20">
             {FEATURES.map((feature) => (
               <FeatureItem
@@ -37,10 +46,13 @@ const Features = () => {
               />
             ))}
           </ul>
+=======
+>>>>>>> 2f7075cf6711c74526c83eae287cb7c6635446ba
         </div>
       </div>
     </section>
   );
+<<<<<<< HEAD
 };
 
 type FeatureItem = {
@@ -60,6 +72,8 @@ const FeatureItem = ({ title, icon, variant, description }: FeatureItem) => {
       <p className="regular-16 mt-5 bg-white/80 text-gray-30 lg:mt-[30px] lg:bg-none"></p>
     </li>
   );
+=======
+>>>>>>> 2f7075cf6711c74526c83eae287cb7c6635446ba
 };
 
 export default Features;

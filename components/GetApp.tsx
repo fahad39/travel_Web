@@ -1,7 +1,7 @@
 import React from "react";
 
 const GetApp = () => {
-  return <div>GetApp</div>;
+  return <section></section>;
 };
 
 export default GetApp;

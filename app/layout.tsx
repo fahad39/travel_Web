@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Travel",
+  title: "Hilink",
   description: "Travel UI/UX App for camping",
 };
 

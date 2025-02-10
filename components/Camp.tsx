@@ -55,8 +55,8 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuruan"
+          title="The Muddy Paws Camp"
+          subtitle="Islamabad, Pakistan"
           peopleJoined="50+ Joined"
         />
         <CampSite
